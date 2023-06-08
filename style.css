@@ -33,6 +33,14 @@ body {
     gap: 24px;
 }
 
+.pattern {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    right: 70px;
+    top: 0;
+}
+
 .profile {
     display: flex;
     gap: 16px;
@@ -52,6 +60,7 @@ body {
 .wrapper__content {
     border-radius: 8px;
     padding: 16px 24px;
+    position: relative;
 }
 
 .wrapper__content:nth-child(1){
@@ -96,6 +105,12 @@ body {
 .profile__verified, .profile__text {
     color: #ccc;
     font-size: .8125rem;
+}
+
+.profile__title {
+    display: block;
+    position: relative;
+    z-index: 5;
 }
 
 .gray {
